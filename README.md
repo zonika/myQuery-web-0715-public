@@ -1,7 +1,7 @@
 ---
   tags: jasmine, strings, numbers, booleans, variables, todo
   languages: JavaScript, js
-  resources: 2
+  resources: 7
 ---
 
 # myQuery
@@ -32,7 +32,7 @@ var myQuerySelectedElements = myQuery('div');
 myQuerySelectedElements.remove(); // removes selected divs
 ```
 
-## The Methods We Need to Make for the `Library.prototype`
+## The Methods Needed for the `Library.prototype`
 - `#getElement` should take a string as an argument and analyze that string for css selectors syntax and select accordingly.
   - ex. `"p"` should get all _paragraph_ elements
   - ex. `".blue"` should get all elements with the _class_ blue
@@ -44,9 +44,6 @@ myQuerySelectedElements.remove(); // removes selected divs
 - `#remove` should remove all selected elements.
   - ex. `myQuerySelectedElements.remove();`
 - `#append` should add a new elements after a each selected element.
-  - Takes one argument, which is the new element (assume it's correctly formatted).
-  ex. `myQuerySelectedElements.append('<span>Hello</span>');`
-- `#prepend` should add a new elements before a each selected element.
   - Takes one argument, which is the new element (assume it's correctly formatted).
   ex. `myQuerySelectedElements.append('<span>Hello</span>');`
 
@@ -66,7 +63,10 @@ jasmine-flatiron -b # runs also in the browser
 ```
 
 ## Resources
-* [Jasmine Documentation](http://jasmine.github.io/2.0/introduction.html)
-* [String Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-* [Number Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
-* [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+* [GetElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+* [GetElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+* [GetElementsByClass](https://developer.mozilla.org/en-US/docs/Web/API/Document.getElementsByClassName)
+* [CreateElement](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement)
+* [AppendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild)
+* [Style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement.style)
