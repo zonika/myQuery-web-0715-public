@@ -3,4 +3,6 @@ javascripts:
   files:
     - lib/myQuery.js
   specs:
+    - spec/jquery-2.1.1.min.js
+    - spec/jasmine-jquery.js
     - spec/myQuery-spec.js
