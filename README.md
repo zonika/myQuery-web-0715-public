@@ -32,7 +32,7 @@ var myQuerySelectedElements = myQuery('div');
 myQuerySelectedElements.remove(); // removes selected divs
 ```
 
-# The Methods We Need to Make for the `Library.prototype`
+## The Methods We Need to Make for the `Library.prototype`
 - `#css` should add in line styling to every selected element based on arguments.
   - The first arg is the property type
   - The second arg is the new property
