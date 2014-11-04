@@ -21,13 +21,13 @@ function Library(elString){
   return this;
 }
 
-/* where your class methods go... */
+/* where your prototypical methods go... */
 
 var myQuery = function(elString) {
   return new Library(elString);
 }
 
-// how to use this code
+// how to use this code (don't include it in your file.)
 var myQuerySelectedElements = myQuery('div');
 myQuerySelectedElements.remove(); // removes selected divs
 ```
@@ -45,6 +45,8 @@ myQuerySelectedElements.remove(); // removes selected divs
 - `#prepend` should add a new elements before a each selected element.
   - Takes one argument, which is the new element (assume it's correctly formatted).
   ex. `myQuerySelectedElements.append('<span>Hello</span>');`
+
+There is an index.html file that you can experiment with your myQuery function.  Simply open up the console (`[CTRL + ALT + j]`), and have at it!
 
 
 
