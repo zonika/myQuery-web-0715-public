@@ -33,6 +33,10 @@ myQuerySelectedElements.remove(); // removes selected divs
 ```
 
 ## The Methods We Need to Make for the `Library.prototype`
+- `#getElement` should take a string as an argument and analyze that string for css selectors syntax and select accordingly.
+  - ex. `"p"` should get all _paragraph_ elements
+  - ex. `".blue"` should get all elements with the _class_ blue
+  - ex. `"#red"` should get the element with the _id_ of red
 - `#css` should add in line styling to every selected element based on arguments.
   - The first arg is the property type
   - The second arg is the new property
