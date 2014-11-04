@@ -1,5 +1,5 @@
 ---
-  tags: jasmine, strings, numbers, booleans, variables, todo
+  tags: DOM, jQuery, selectors, DOM manipulation
   languages: JavaScript, js
   resources: 7
 ---
@@ -64,9 +64,9 @@ jasmine-flatiron -b # runs also in the browser
 
 ## Resources
 * [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-* [GetElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
-* [GetElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
-* [GetElementsByClass](https://developer.mozilla.org/en-US/docs/Web/API/Document.getElementsByClassName)
-* [CreateElement](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement)
-* [AppendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild)
-* [Style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement.style)
+* [#getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+* [#getElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+* [#getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document.getElementsByClassName)
+* [#createElement](https://developer.mozilla.org/en-US/docs/Web/API/document.createElement)
+* [#appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node.appendChild)
+* [#style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement.style)
