@@ -15,7 +15,7 @@ One of the most common uses of jQuery is to select elements in the DOM and do so
 jQuery can also change properties of selected nodes, remove them, or add new ones.
 We're going to create all this functionality ourselves before we use the library.
 
-We'll be making these methods on a prototype called Library.  The creation of new selections with myQuery will be wrapped in the funciton expression myQuery.  Use this code in for `myQuery.js`
+We'll be making these methods on a prototype called Library.  The creation of new selections with myQuery will be wrapped in the function expression myQuery.  Use this code in for `myQuery.js`
 
 ```javascript
 function Library(elString){
